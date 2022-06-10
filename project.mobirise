@@ -27,7 +27,7 @@
         "isGhostButtonBorder": true,
         "underlinedLinks": true,
         "isAnimatedOnScroll": true,
-        "isScrollToTopButton": true
+        "isScrollToTopButton": false
       },
       "additionalSetColors": [
         "#eae8e4",
@@ -73,7 +73,7 @@
     "sitemapSwitcherAuto": "on",
     "siteUrl": "https://lilylorelei.art/",
     "pwa-switcher": true,
-    "uniqCompNum": 205,
+    "uniqCompNum": 209,
     "versionPublish": "5.6.8",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
@@ -668,7 +668,7 @@
         {
           "_name": "video4",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video4\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../../app/themes/mobirise5/components/_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#000000\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../../app/themes/mobirise5/components/_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"title-wrapper mb-5\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>Heads in Clouds</b></h4>\n        </div>\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{videoWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/T26MSmURaj8?loop=1&autoplay=1\" width=\"800\" height=\"600\"></iframe>\n                </div>\n                <p class=\"mbr-description pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Video Description</p>\n            </div>\n            <div class=\"col-12 col-lg\">\n                <div class=\"text-wrapper\">\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><a href=\"https://opensea.io/collection/headsinclouds\" class=\"text-primary\" target=\"_blank\"><b>HEADS IN CLOUDS&nbsp;</b></a></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Is a collection of 111 digitally hand-drawn, animated artworks that celebrate the zest of life! Created with heaps of love and imagination, it's dedicated to all dreamers and visionaries. <br><br>In addition to a unique painting, you get an animation and a short story, written by Lily. <br>The dreamlike artworks are focused on wonder, diversity, playfulness, inclusivity, and the art of storytelling and character building.&nbsp;<br><br><b>Available</b>&nbsp; &nbsp; &nbsp; &nbsp;|<b>&nbsp; &nbsp; &nbsp; Sold</b>&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp;<b>&nbsp; &nbsp; &nbsp; Traded</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b>3</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<b>29</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<b>3.7 ETH&nbsp;</b><br><br>🤍&nbsp; &nbsp; 110 x 1/1s and a special edition&nbsp;<br>🤍&nbsp; &nbsp; New artworks are added each week to a&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; total of 111.&nbsp; &nbsp;<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href=\"https://opensea.io/collection/headsinclouds\" class=\"text-info\" target=\"_blank\"><b>Mint</b> <b>Link</b></a> <br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video4\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../../app/themes/mobirise5/components/_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#000000\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../../app/themes/mobirise5/components/_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"title-wrapper mb-5\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>Heads in Clouds</b></h4>\n        </div>\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{videoWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/T26MSmURaj8?loop=1&autoplay=1\"></iframe>\n                </div>\n                <p class=\"mbr-description pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Video Description</p>\n            </div>\n            <div class=\"col-12 col-lg\">\n                <div class=\"text-wrapper\">\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><a href=\"https://opensea.io/collection/headsinclouds\" class=\"text-primary\" target=\"_blank\"><b>HEADS IN CLOUDS&nbsp;</b></a></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">Is a collection of 111 digitally hand-drawn, animated artworks that celebrate the zest of life! Created with heaps of love and imagination, it's dedicated to all dreamers and visionaries. <br><br>In addition to a unique painting, you get an animation and a short story, written by Lily. <br>The dreamlike artworks are focused on wonder, diversity, playfulness, inclusivity, and the art of storytelling and character building.&nbsp;<br><br><br>🤍&nbsp; &nbsp; 110 x 1/1s and a special edition&nbsp;<br>🤍&nbsp; &nbsp; New artworks are added each week to a&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;total of 111.&nbsp; &nbsp;<br><br><b>Available : 3&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp;Sold: 29&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; Traded: 3.7 ETH&nbsp;<br></b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a href=\"https://opensea.io/collection/headsinclouds\" class=\"text-info\" target=\"_blank\"><b>Mint</b> <b>Link</b></a> <br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -725,6 +725,66 @@
           "_params": {}
         },
         {
+          "_name": "video2",
+          "_sourceTheme": "snackm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video2\" group=\"Image & Video\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"@ADDONS_PATH@/snackm5/components/_images/background1.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#000000\" title=\"Color\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"mbr-section-head\">\n            <h4 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>OUR FAVORITE RECIPE</b>\n            </h4>\n        </div>\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{videoWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/ZrKYKKzqagQ?loop=1&autoplay=1\"></iframe>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg\">\n                <div class=\"text-wrapper\">\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                        <b>MOONLIGHT SONATA</b></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">This is a painting I created for the <a href=\"https://twitter.com/Neonrain_io\" class=\"text-primary\" target=\"_blank\">Neonrain</a>&nbsp;Art contest. It is a unique piece however its story is linked to my main collection <a href=\"https://opensea.io/collection/headsinclouds\" class=\"text-primary\" target=\"_blank\">Heads in Clouds</a>. <br>It comes with a fantasy short story, typed on a parchment created by me.<br>Soon to be minted!<br> <br>Here is a bit of the story:<br>''If you'd look up at the right time this is what you would see: Dragon-shaped fire lanterns floating midair, aerialists made of stardust and smoke performing breathtaking acrobatics, ghostly fortune-tellers telling, well, telling fortunes of course, and many more peculiar things.<br>You would hear festive music and laughter echoing across the skies as the residents begin the merrymaking and join the carnival. The air is filled with scents of buttery popcorn and burned caramel muffins.''<br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverse)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-section-head": {
+              "margin-bottom": "2.3rem"
+            },
+            ".mbr-section-title": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "& when (@showText)": {
+                "margin-bottom": "2.3rem"
+              },
+              "color": "#ca017a"
+            },
+            ".text-wrapper": {
+              "@media (max-width: 991px)": {
+                "margin-top": "2rem"
+              }
+            },
+            ".video-wrapper iframe": {
+              "width": "100%"
+            },
+            ".text-wrapper when (@fullWidth)": {
+              "padding": "1rem"
+            },
+            "@media (min-width: 992px)": {
+              ".text-wrapper": {
+                "padding": "2rem",
+                "& when (@fullWidth)": {
+                  "padding-right": "4rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_cid": "t8hGgZkEaX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "video2-5p"
+        },
+        {
           "_name": "video4",
           "_sourceTheme": "mobirise5",
           "_styles": {
@@ -778,7 +838,7 @@
               "color": "#ffffff"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video4\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value title=\"Image\">\n            <input type=\"color\" value=\"#000000\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"title-wrapper mb-5\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>Heads in Clouds</b></h4>\n        </div>\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{videoWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/C1FUE6-fxLE?loop=1&autoplay=1\" width=\"800\" height=\"600\"></iframe>\n                </div>\n                <p class=\"mbr-description pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Video Description</p>\n            </div>\n            <div class=\"col-12 col-lg\">\n                <div class=\"text-wrapper\">\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><a href=\"https://foundation.app/@Lily_Lorelei/lilycollab/1\" class=\"text-primary\" target=\"_blank\">Queen of the Blue Ghosts</a></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\"In the fading light of the summer's eve, the blue ghosts gather to pay tribute to their benevolent Queen, as she unfurls her wings bringing nightfall so dark that looks like a velvet blanket, over the world.<br>An eerie sound echoes, a whisper in a language understood only by them. That’s when they come alive, glowing in the darkness, and if fated, you will see them too.\"<br><br> 🤍&nbsp; A collaboration with SoulplayClayNFT.&nbsp;<br>🤍&nbsp; This 1/1 artwork is both a physical sculpture.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;and a digital painting.<br><br><b>Buy Now&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; Reserve&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</b><br><b>&nbsp;0.5 ETH&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp;0.3 ETH&nbsp; &nbsp; &nbsp;</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp;&nbsp;<br><a href=\"https://foundation.app/@Lily_Lorelei/lilycollab/1\" class=\"text-primary\" target=\"_blank\">Mint Link</a> <br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"video4\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"videoWidth\" title=\"Video\" min=\"4\" max=\"8\" step=\"1\" value=\"8\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value title=\"Image\">\n            <input type=\"color\" value=\"#000000\" title=\"Color\" selected>\n            <input type=\"video\" value=\"https://vimeo.com/428046504\" title=\"Video\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"title-wrapper mb-5\">\n            <h4 class=\"mbr-section-title mbr-fonts-style mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                <b>Heads in Clouds</b></h4>\n        </div>\n        <div class=\"row align-items-center\">\n            <div class=\"col-12 col-lg-{{videoWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/C1FUE6-fxLE?loop=1&autoplay=1\" width=\"800\" height=\"600\"></iframe>\n                </div>\n                <p class=\"mbr-description pt-2 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-description\">\n                    Video Description</p>\n            </div>\n            <div class=\"col-12 col-lg\">\n                <div class=\"text-wrapper\">\n                    <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><a href=\"https://foundation.app/@Lily_Lorelei/lilycollab/1\" class=\"text-primary\" target=\"_blank\">Queen of the Blue Ghosts</a></h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\">\"In the fading light of the summer's eve, the blue ghosts gather to pay tribute to their benevolent Queen, as she unfurls her wings bringing nightfall so dark that looks like a velvet blanket, over the world.<br>An eerie sound echoes, a whisper in a language understood only by them. That’s when they come alive, glowing in the darkness, and if fated, you will see them too.\"<br><br> 🤍&nbsp; A collaboration with SoulplayClayNFT.&nbsp;<br>🤍&nbsp; This 1/1 artwork is a physical sculpture, a digital&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;painting, and an animation.<br><br><b>Buy Now&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; Reserve&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;</b><br><b>&nbsp;0.5 ETH&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp; &nbsp;0.3 ETH&nbsp; &nbsp; &nbsp;</b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp;&nbsp;<br><a href=\"https://foundation.app/@Lily_Lorelei/lilycollab/1\" class=\"text-primary\" target=\"_blank\">Mint Link</a> <br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "video4-54",
           "_isUserblock": true,
           "_cid": "t7HU9w07I0",
@@ -816,7 +876,7 @@
           },
           "_name": "image6",
           "_sourceTheme": "naturalm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image6\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" value=\"@ADDONS_PATH@/naturalm4/components/_images/background7.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#ffffff\" title=\"Color\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h4 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Video Gallery</b></h4>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/3frc3zhfm64?loop=1&autoplay=1\"></iframe>\n                </div>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                    Video Description</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image6\" group=\"Image & Video\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Video\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" value=\"@ADDONS_PATH@/naturalm4/components/_images/background7.jpg\" title=\"Image\">\n            <input type=\"color\" value=\"#000000\" title=\"Color\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <h4 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Video Gallery</b></h4>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}} video-block\">\n                <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/3frc3zhfm64?loop=1&autoplay=1\" width=\"800\" height=\"600\"></iframe>\n                </div>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                    Video Description</p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t7JGUZGXAe",
           "_anchor": "image6-5c",
           "_protectedParams": [],
@@ -825,131 +885,145 @@
           "_params": {}
         },
         {
-          "_name": "image02",
-          "_sourceTheme": "artm4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Image Hover\" name=\"imgHover\" value=\"#afe1ed\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/origin_inception-2000x1869.png\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#eae8e4\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-6 col-lg-3 md-pb\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://opensea.io/collection/origin-inception\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/mask6-549x777.png\" alt=\"Mobirise\"></a>\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                        Graphic Design</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 md-pb\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://opensea.io/collection/origin-inception\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/mask12-568x803.png\" alt=\"Mobirise\"></a>\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                        Art Design</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 md-pb\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://opensea.io/collection/origin-inception\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/mask18-568x803.png\" alt=\"Mobirise\"></a>\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                        Graphic Design</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://opensea.io/collection/origin-inception\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/mask9-549x777.png\" alt=\"Mobirise\"></a>\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                        Art Design</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "@media (max-width: 991px)": {
-              ".image-wrapper": {
-                "margin-bottom": "1rem"
-              }
-            },
-            ".container": {
-              "max-width": "1400px"
-            },
-            ".image-wrapper": {
-              "position": "relative",
-              "&:before": {
-                "content": "''",
-                "top": "0",
-                "left": "0",
-                "opacity": "0",
-                "width": "100%",
-                "pointer-events": "none",
-                "transition": "all 0.3s",
-                "height": "100%",
-                "background": "@imgHover",
-                "position": "absolute",
-                "z-index": "10"
-              },
-              "&:hover": {
-                "&:before": {
-                  "opacity": "0.4"
-                }
-              }
+            ".left-side": {
+              "text-align": "center",
+              "padding": "30px"
             },
             ".row": {
-              "flex-direction": "row-reverse"
+              "align-items": "center",
+              "background": "@cardsBg",
+              "padding": "0px",
+              "margin": "0"
             },
-            "img": {
-              "width": "100%",
-              "height": "300px",
-              "object-fit": "cover"
+            ".container-fluid": {
+              "padding": "0"
             },
-            ".mbr-text": {
-              "color": "#818181"
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".right-side": {
+              "padding": "0"
+            },
+            ".iconfont-wrapper": {
+              "margin-bottom": "18px"
+            },
+            ".mbr-iconfont": {
+              "font-size": "80px",
+              "color": "@iconColor"
+            },
+            ".mbr-section-subtitle": {
+              "font-weight": "600",
+              "padding-bottom": "10px"
+            },
+            ".mbr-section-title": {
+              "padding-bottom": "36px"
+            },
+            ".l1": {
+              "color": "#ffffff"
+            },
+            ".l2, .lin": {
+              "color": "#ffffff"
+            },
+            "a": {
+              "transition": "color .3s"
+            },
+            ".l2, .lin DIV": {
+              "text-align": "left"
             }
           },
-          "_cid": "t7HJ8Akdn1",
-          "_anchor": "image02-4y",
+          "_name": "features5",
+          "_sourceTheme": "temperm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features5\" group=\"Features\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"8\" max=\"12\" step=\"1\" value=\"12\" condition=\"!fullWidth\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\">\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\" condition=\"showIcon\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardsBg\" value=\"#000000\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{\n        'mbr-fullscreen': fullScreen}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"row justify-content-center\">\n                <div class=\"right-side col-12 col-md-{{imageWidth}} item-wrapper\">\n                    <a href=\"https://opensea.io/collection/origin-inception\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/origin-1-1249x1487.png\" alt=\"Mobirise\"></a>\n                </div>\n                <div class=\"left-side col-12 col-md\">\n                    <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-hearth mobi-mbri\"></span>\n                    </div>\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style l1\" data-app-selector=\".l1, .iconfont-wrapper\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><b><a href=\"https://opensea.io/collection/origin-inception\" class=\"text-primary\" target=\"_blank\">INCEPTION: ORIGIN</a></b></h3>\n                    <h5 class=\"mbr-section-title mbr-fonts-style l2\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".l2, .lin\"><b>Origin</b> is the source of everything.<br>It is what we know to exist and what we’re yet to discover. It is unconditional love and creative energy and it will blast its way through the resistance and shower us with an abundance of all good things.<div><b>Inception</b> is a beginning, an idea forming into existence. </div><div>It is that timeless, magic space between the idea and the manifestation.</div><div>Then follows the sweet feeling of having your hands in the clay, bringing your vision into physical existence. At that moment we also exist in the timeless, magical space. The joy truly is in the journey, the molding of your own reality journey!</div><br><div><br></div><div>Nothing comes close to that feeling of empowerment, purpose, and flow.</div><div>With Inception, Origin is expanding and experiencing itself through the illusion of separation. </div><div>And so it conceives the idea of humanity and all that is physical.</div><div>Everything is unfolding perfectly. </div><div>Something wonderful is happening to you. </div><div>Keep that expectation in mind and watch what happens!</div><br><div>🤍 14 Digitally hand-drawn artworks.</div><br><div><b>Available : 14&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; Sold: 6&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; Traded: 0.26 ETH&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; Floor price: 0.04 ETH</b></div><div><br></div></h5>\n                    <h5 class=\"lin mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".lin\" mbr-if=\"showLink\"><a href=\"https://opensea.io/collection/origin-inception\" class=\"text-primary\" target=\"_blank\">Mint Link</a></h5>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t8ifbefxtE",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "features5-5r"
         },
         {
-          "_name": "image02",
-          "_sourceTheme": "artm4",
+          "alias": false,
           "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "@media (max-width: 991px)": {
-              ".image-wrapper": {
-                "margin-bottom": "1rem"
-              }
-            },
-            ".container": {
-              "max-width": "1400px"
-            },
-            ".image-wrapper": {
-              "position": "relative",
-              "&:before": {
-                "content": "''",
-                "top": "0",
-                "left": "0",
-                "opacity": "0",
-                "width": "100%",
-                "pointer-events": "none",
-                "transition": "all 0.3s",
-                "height": "100%",
-                "background": "@imgHover",
-                "position": "absolute",
-                "z-index": "10"
-              },
-              "&:hover": {
-                "&:before": {
-                  "opacity": "0.4"
-                }
-              }
+            ".left-side": {
+              "text-align": "center",
+              "padding": "30px"
             },
             ".row": {
-              "flex-direction": "row-reverse"
+              "align-items": "center",
+              "background": "@cardsBg",
+              "padding": "0px",
+              "margin": "0"
             },
-            "img": {
-              "width": "100%",
-              "height": "300px",
-              "object-fit": "cover"
+            ".container-fluid": {
+              "padding": "0"
             },
-            ".mbr-text": {
-              "color": "#818181"
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".right-side": {
+              "padding": "0"
+            },
+            ".iconfont-wrapper": {
+              "margin-bottom": "18px"
+            },
+            ".mbr-iconfont": {
+              "font-size": "80px",
+              "color": "@iconColor"
+            },
+            ".mbr-section-subtitle": {
+              "font-weight": "600",
+              "padding-bottom": "10px"
+            },
+            ".mbr-section-title": {
+              "padding-bottom": "36px"
+            },
+            ".l1": {
+              "color": "#ffffff"
+            },
+            ".l2, .lin": {
+              "color": "#ffffff"
+            },
+            "a": {
+              "transition": "color .3s"
+            },
+            ".l1, .iconfont-wrapper": {
+              "color": "#ca017a"
+            },
+            ".l2, .lin DIV": {
+              "text-align": "left"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image2\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Description\" name=\"showDescription\">\n        <header>Color</header>\n        <input type=\"color\" title=\"Image Hover\" name=\"imgHover\" value=\"#afe1ed\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/origin_inception-2000x1869.png\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#eae8e4\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12 col-md-6 col-lg-3 md-pb\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://opensea.io/collection/psychosix\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/fury.animals-gold-1-533x599.png\" alt=\"Mobirise\"></a>\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                        Graphic Design</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 md-pb\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://opensea.io/collection/psychosix\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/fury.animals-white-1-533x601.png\" alt=\"Mobirise\"></a>\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                        Art Design</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3 md-pb\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://opensea.io/collection/psychosix\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/fury.animals-green-1-533x624.png\" alt=\"Mobirise\"></a>\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                        Graphic Design</p>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <div class=\"image-wrapper\">\n                    <a href=\"https://opensea.io/collection/psychosix\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/diamond-boy-533x601.png\" alt=\"Mobirise\"></a>\n                    <p class=\"mbr-text mbr-fonts-style mt-2 align-left\" mbr-theme-style=\"display-4\" mbr-if=\"showDescription\" data-app-selector=\".mbr-text\">\n                        Art Design</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "image02-57",
-          "_isUserblock": true,
-          "_cid": "t7IlYSmFiS",
+          "_name": "features5",
+          "_sourceTheme": "temperm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features5\" group=\"Features\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"8\" max=\"12\" step=\"1\" value=\"12\" condition=\"!fullWidth\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcon\">\n        <input type=\"color\" title=\"Icon Color\" name=\"iconColor\" value=\"#ffffff\" condition=\"showIcon\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Link\" name=\"showLink\" checked>\n        <input type=\"color\" title=\"Color\" name=\"cardsBg\" value=\"#000000\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background2.jpg\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{\n        'mbr-fullscreen': fullScreen}\">\n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"row justify-content-center\">\n                <div class=\"right-side col-12 col-md-{{imageWidth}} item-wrapper\">\n                    <a href=\"https://opensea.io/collection/psychosix\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/madeeyes-1-1249x983.png\" alt=\"Mobirise\"></a>\n                </div>\n                <div class=\"left-side col-12 col-md\">\n                    <div class=\"iconfont-wrapper\" mbr-if=\"showIcon\">\n                        <span mbr-icon class=\"mbr-iconfont mobi-mbri-hearth mobi-mbri\"></span>\n                    </div>\n                    <h3 class=\"mbr-section-subtitle mbr-fonts-style l1\" data-app-selector=\".l1, .iconfont-wrapper\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\"><a href=\"https://opensea.io/collection/psychosix\" class=\"text-primary\">PSYCHO SIX</a><div><br></div></h3>\n                    <h5 class=\"mbr-section-title mbr-fonts-style l2\" mbr-theme-style=\"display-4\" mbr-if=\"showTitle\" data-app-selector=\".l2, .lin\"><div>Is a dynamite crew of six talented breakdancers!&nbsp;</div><div>Once underdogs, now famous in their field, they’ve participated in countless video clips for rappers, etc, &amp; have won many street dance battles.&nbsp;</div><div><br></div><div>The first 6 buyers will receive a non-animated version in addition.</div><div><br></div><div>🤍 6 Digitally hand-drawn artworks.</div><div>🤍 Each character has their own, individual short story.</div><br><br><div><b>Available : 4&nbsp; &nbsp; |&nbsp; &nbsp; Sold: 2&nbsp; &nbsp; |&nbsp; &nbsp;Traded: 0.10 ETH&nbsp; &nbsp; |&nbsp; &nbsp; Floor price: 0.05 ETH</b></div></h5>\n                    <h5 class=\"lin mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".lin\" mbr-if=\"showLink\"><a href=\"https://opensea.io/collection/psychosix\" class=\"text-primary\" target=\"_blank\">Mint Link</a></h5>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t8ifcnHe8R",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "features5-5s"
         },
         {
           "alias": false,
